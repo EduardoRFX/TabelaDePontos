@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de pontos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> Tabela de Pontos</h1>
+    <table style="width:100%">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Vitória</th>
+                <th>Empates</th>
+                <th>Derrotas</th>                           
+                <th>Pontos</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody id="tabelaJogadores">
+
+        </tbody>
+    </table>
+    <div class="novoBotaoInput">
+        
+        <!-- <button onClick="AdicionarJogador()" >Adicionar Novo Jogador</button> -->
+        <button onClick="ZerarPontos()">Zerar Pontos</button><br>
+        <h2 id="vencedor"></h2>
+        <br>
+        <h2>Quem obter a potuação de 30 primeiro,sera o vencedor!<h2>
+ 
+    </div>
+    
+
+    <a href="http:github.com/EduardoRFX" target="_blank"><img src="img/github-logo_5.png" alt="github-logo" class="github-logo"></a>  
+    <script src="index.js"></script>
+</body>
+</html>

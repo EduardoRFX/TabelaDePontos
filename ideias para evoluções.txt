@@ -1,0 +1,5 @@
+- logicas do empate,vitoria e derrotas para todos
+- colocar um trofeu com o nome do vencedore (++)
+- colocar a imagen do jogador
+- botão para zerar os pontos (++)
+- adicionar um novo jogador  (++)

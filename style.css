@@ -1,0 +1,55 @@
+*{
+    text-align: center;
+}
+
+body {
+    font-family: "Roboto Mono", monospace;
+    min-height: 400px;
+    background-image: url(img/background.jpg);
+    background-color: #111;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.github-logo {
+    width: 60px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+table {
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+
+h1 {
+    color: white;
+}
+
+th,
+tr,
+td {
+    border: solid 1px white;
+    color: white;
+}
+
+.novoBotaoInput {
+    margin-top: 35px;
+}
+
+button{
+    background:rgb(151, 20, 20);
+    color:#ffffff;
+}
+
+#vencedor{
+    color:rgb(242, 255, 65);
+    font-size:42;
+}
+
+h2{
+    margin-top:80px;
+    color:#ffffff;
+}
